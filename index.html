@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--Calculadora-->
+    
+    <div class="container-caculadora">
+        <table class="table table-dark" id="tabla-calculadora">
+            <thead>
+                <td colspan="3"><input type="textfield" class="textresult" id="txtresult" value= "" placeholder=""></td>
+                <td colspan="1"><button type="reset" class="btn btn-light" id="btnclear">C</button></td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><button type="button" class="btn btn-primary" id="btnseven">7</button></td>
+                    <td><button type="button" class="btn btn-primary" id="btneight">8</button></td>
+                    <td><button type="button" class="btn btn-primary" id="btnnine">9</button></td>
+                    <td><button type="button" class="btn btn-primary" id="btndivide">/</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-primary" id="btnfour">4</button></td>
+                    <td><button type="button" class="btn btn-primary" id="btnfive">5</button></td>
+                    <td><button type="button" class="btn btn-primary" id="btnsix">6</button></td>
+                    <td><button type="button" class="btn btn-primary" id="btnmultiply">X</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-primary" id="btnone">1</button></td>
+                    <td><button type="button" class="btn btn-primary" id="btntwo">2</button></td>
+                    <td><button type="button" class="btn btn-primary" id="btnthree">3</button></td>
+                    <td><button type="button" class="btn btn-primary" id="btnrest">—</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-primary" id="btnzero">0</button></td>
+                    <td><button type="button" class="btn btn-primary" id="btnopen">(</button></td>
+                    <td><button type="button" class="btn btn-primary" id="btnclose">)</button></td>
+                    <td><button type="button" class="btn btn-primary" id="btnsum">+</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" class="btn btn-primary" id="btnpoint">.</button></td>
+                    <td colspan="2"><button type="button" class="btn btn-info" id="btnequal">=</button></td>
+                    <td><button type="reset" class="btn btn-light" id="btnback">◄</button></td>   
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

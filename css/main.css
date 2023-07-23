@@ -1,0 +1,13 @@
+.container-calculadora{
+    height: 1000%;
+}
+
+button{
+    width: 100%;
+}
+
+#txtresult{
+    text-align: center;
+    width: 100%;
+}
+
